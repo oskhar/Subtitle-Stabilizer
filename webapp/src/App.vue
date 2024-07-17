@@ -25,6 +25,7 @@
               v-if="downloadUrl"
               :href="downloadUrl"
               download="updated_subtitle.srt"
+              color="primary"
               >Download Updated Subtitle</v-btn
             >
           </v-card-text>
