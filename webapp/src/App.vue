@@ -40,7 +40,7 @@ import { ref } from "vue";
 export default {
   setup() {
     const file = ref(null);
-    const offset = ref("");
+    const offset = ref("00:00:00,000");
     const operation = ref("add");
     const operations = ["add", "subtract"];
     const downloadUrl = ref("");
